@@ -1,7 +1,22 @@
 {
-  "name": "1",
+  "name": "aoc-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "Template for a single Advent of Code task",
+  "author": "Leo Petrovic (mapokapo) <leopetrovic11@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "advent of code",
+    "aoc",
+    "template"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mapokapo/aoc-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mapokapo/aoc-template/issues"
+  },
+  "homepage": "https://github.com/mapokapo/aoc-template#readme",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -14,9 +29,6 @@
     "lint:fix": "eslint --fix --ext .ts src",
     "prettier": "prettier --write \"src/**/*.ts\""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.5.10",
     "@types/node": "^20.10.3",
